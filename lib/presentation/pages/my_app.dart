@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_learning/presentation/common/constants.dart';
+import 'package:flutter_learning/presentation/common/constant.dart';
 import 'package:flutter_learning/presentation/core/injection.dart';
 import 'package:flutter_learning/presentation/core/router.dart';
 

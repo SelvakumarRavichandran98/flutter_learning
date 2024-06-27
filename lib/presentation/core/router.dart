@@ -8,7 +8,7 @@ part 'router.gr.dart';
 
 final AuthGuard authGuard = getIt<AuthGuard>();
 
-@LazySingleton()
+@lazySingleton
 class AuthGuard extends AutoRouteGuard {
   @override
   void onNavigation(NavigationResolver resolver, StackRouter router) {
@@ -20,7 +20,7 @@ class AuthGuard extends AutoRouteGuard {
   }
 }
 
-@LazySingleton()
+@lazySingleton
 @AutoRouterConfig()
 class AppRouter extends _$AppRouter {
   @override

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_learning/presentation/common/colors.dart';
 
+const String database = 'database';
+
 final ThemeData theme = ThemeData(
   primaryColor: AppColors.primary,
   brightness: Brightness.light,
